@@ -1,6 +1,6 @@
 #!/bin/bash
 APPLICATIONYML="https://raw.githubusercontent.com/lrmn7/lavanodes/main/application.yml.example"
-URL="https://api.github.com/repos/Cog-Creators/Lavalink-Jars/releases"
+URL="https://api.github.com/repos/lavalink-devs/Lavalink/releases"
 
 JSON=$(curl $URL -s)
 LAST=$(echo $JSON | jq -c .[0])
