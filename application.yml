@@ -1,6 +1,6 @@
 lavalink:
     plugins:
-        - dependency: com.github.TopiSenpai.LavaSrc:lavasrc-plugin:4.0.0
+        - dependency: com.github.TopiSenpai.LavaSrc:lavasrc-plugin:3.2.9
           repository: https://maven.topi.wtf/releases
     server:
         bufferDurationMs: 400
