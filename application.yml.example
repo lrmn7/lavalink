@@ -31,7 +31,7 @@ plugins:
       speed: 1.0 # the speed parameter is a float between 0.5 and 10. The default is 1.0. (0.5 is half speed, 2.0 is double speed, etc.)
       audioFormat: "mp3" # supported formats are: mp3, ogg_opus, ogg_vorbis, aac, wav, and flac. Default format is mp3
 server: # REST and WS server
-  port: 65534
+  port: 2333
   address: 0.0.0.0
 lavalink:
   plugins:
