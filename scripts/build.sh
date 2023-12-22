@@ -1,6 +1,6 @@
 # Experiment: build_local.sh
 #!/bin/bash
-echo Getting version info from Cog-Creators/Lavalink-Jars
+echo Getting version info from lavalink-devs/Lavalink
 URL="https://api.github.com/repos/lavalink-devs/Lavalink/releases"
 TAG=$(echo $(curl $URL -s) | jq .[0].tag_name)
 
