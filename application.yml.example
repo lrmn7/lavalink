@@ -9,11 +9,16 @@ plugins:
       - "dzsearch:%QUERY%" # Deezer search provider
     sources:
       spotify: true # Enable Spotify source
-      applemusic: true # Enable Apple Music source
+      applemusic: false # Enable Apple Music source
       deezer: true # Enable Deezer source
       yandexmusic: true # Enable Yandex Music source
       flowerytts: false # Enable Flowery TTs source
       youtube: true # Enable YouTube search source (https://github.com/topi314/LavaSearch)
+    applemusic:
+      albumLoadLimit: 6
+      countryCode: ID
+      mediaAPIToken: '...'
+      playlistLoadLimit: 6
     spotify:
       clientId: "fdf0e2d1da9e40169b5918f73addae04"
       clientSecret: "db0fa34ff766490e87e9996c0ae844e0"
