@@ -12,13 +12,8 @@ plugins:
       applemusic: false # Enable Apple Music source
       deezer: true # Enable Deezer source
       yandexmusic: true # Enable Yandex Music source
-      flowerytts: false # Enable Flowery TTs source
+      flowerytts: true # Enable Flowery TTs source
       youtube: true # Enable YouTube search source (https://github.com/topi314/LavaSearch)
-    applemusic:
-      albumLoadLimit: 6
-      countryCode: ID
-      mediaAPIToken: '...'
-      playlistLoadLimit: 6
     spotify:
       clientId: "fdf0e2d1da9e40169b5918f73addae04"
       clientSecret: "db0fa34ff766490e87e9996c0ae844e0"
@@ -61,7 +56,7 @@ lavalink:
     resamplingQuality: LOW # Quality of resampling operations. Valid values are LOW, MEDIUM and HIGH, where HIGH uses the most CPU.
     trackStuckThresholdMs: 10000 # The threshold for how long a track can be stuck. A track is stuck if it does not return any audio data.
     useSeekGhosting: true # Seek ghosting is the effect where whilst a seek is in progress, the audio buffer is read from until empty, or until seek is ready.
-    youtubePlaylistLoadLimit: 100 # Number of pages at 100 each
+    youtubePlaylistLoadLimit: 6 # Number of pages at 100 each
     playerUpdateInterval: 5 # How frequently to send player updates to clients, in seconds
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
