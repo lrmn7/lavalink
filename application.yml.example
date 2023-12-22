@@ -9,7 +9,7 @@ plugins:
       - "dzsearch:%QUERY%" # Deezer search provider
     sources:
       spotify: true # Enable Spotify source
-      applemusic: true # Enable Apple Music source
+      applemusic: false # Enable Apple Music source
       deezer: true # Enable Deezer source
       yandexmusic: true # Enable Yandex Music source
       flowerytts: false # Enable Flowery TTs source
