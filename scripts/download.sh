@@ -1,5 +1,5 @@
 #!/bin/bash
-APPLICATIONYML="https://raw.githubusercontent.com/lrmn7/lavanodes/main/application.yml.example"
+APPLICATIONYML="https://raw.githubusercontent.com/lrmn7/lavalink/main/application.yml.example"
 URL="https://github.com/lavalink-devs/Lavalink/releases/download/4.0.0/Lavalink.jar"
 
 JSON=$(curl $URL -s)
